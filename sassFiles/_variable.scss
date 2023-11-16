@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background: #f3f4f7;
+}
+html {
+  scroll-behavior: smooth;
+}
+.card-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  background-color: #f5f8fd;
+  @media (max-width: 277px) {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+}
