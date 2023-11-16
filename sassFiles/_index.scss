@@ -22,3 +22,9 @@
     text-align: center;
   }
 }
+.homeclass {
+  min-height: 100vh;
+  @media (max-width: 478px) {
+    min-height: 50vh;
+  }
+}
