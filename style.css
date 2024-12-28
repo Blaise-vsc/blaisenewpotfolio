@@ -41,8 +41,7 @@ html {
 }
 .img-parent img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 10px;
 }
 @media (max-width: 478px) {
@@ -58,5 +57,14 @@ html {
 @media (max-width: 478px) {
   .card {
     text-align: center;
+  }
+}
+
+.homeclass {
+  min-height: 100vh;
+}
+@media (max-width: 478px) {
+  .homeclass {
+    min-height: 50vh;
   }
 }/*# sourceMappingURL=style.css.map */
